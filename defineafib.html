@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.5"></script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="ball1"></div>
+            <div class="ball2"></div>
+        </div>
+        <div id="hamburgernav">
+            <a href="index.html">
+                <div class="menuitem"><div class="menuitem_icon"><img src="./assets/projectsicon.svg"></div><div class="menuitem_text">PROJECTS</div></div>
+            </a>
+            <a href="experience.html">
+                <div class="menuitem"><div class="menuitem_icon"><img src="./assets/experienceicon.svg"></div><div class="menuitem_text">EXPERIENCE</div></div>
+            </a>
+            <a href="about.html">
+                <div class="menuitem"><div class="menuitem_icon"><img src="./assets/aboutmeicon.svg"></div><div class="menuitem_text menuitem_text_last">ABOUT ME</div></div>
+            </a>
+        </div>
+        <div class="layout">
+            <div class="heading">
+                <div style="width: 48px;height: 48px;">
+                    
+                </div>
+                <div class="project_heading">
+                    DEFINE AFIB
+                </div>
+                <div class="menu">
+                    <button class="menubutton" id="menubutton" onclick="showNav()"><img src="./assets/burgermenu.svg"></button>
+                </div>
+            </div>
+
+            <div class="content_container">
+                <div class="roles">
+                    <span style="font-weight: 600">My Roles:</span> Inventor on patent | HCD award honoree | Visual UI designer | Illustrator | UX researcher
+                </div>
+
+                <div class="project_section">
+                    <div><img src="./assets/defineafib/overviewphone.png" width="328"></div>
+                    <div class="project_section_body">
+                        <h2>PROJECT OVERVIEW</h2>
+                        <p>
+                            DEFINE AFib is the pilot clinical study hosted on the Medtronic Discovery.
+                            This study aimed to gather atrial fibrillation (AF) episode data from patient 
+                            implantable cardiac monitors (ICMs) and survey data on symptoms and treatments.
+                        </p>
+                        <p>
+                            Its goal was to develop an AI model capable of identifying connections between 
+                            AF burden and symptoms, aiding clinicians in devising more effective treatment 
+                            strategies for patients.
+                        </p>
+                    </div>
+                </div>
+                <div class="project_section">
+                    <img src="./assets/defineafib/design_process.png" style="width: 80%; max-width:1377px;">
+                </div>
+                <div class="project_section">
+                    <div class="project_section_body">
+                        <h3 class="center-text">PROBLEM SPACE</h3>
+                        <p>
+                            Clinicians often struggle to identify effective treatment plans and patients 
+                            must build their lives around their AF symptoms, struggling with:
+                        </p>
+                        <div class="list_box_container">
+                            <div class="list_box">
+                                <div class="list_box_header">
+                                    <img src="./assets/facemask.svg">&nbsp;&nbsp;&nbsp;SYMPTOMS
+                                </div>
+                                <ul>
+                                    <li>Heart palpitations</li>
+                                    <li>Chest pain</li>
+                                    <li>Dizziness and lightheadedness</li>
+                                    <li>Fatigue</li>
+                                    <li>Reduced ability to exercise</li>
+                                    <li>Shortness of breath</li>
+                                </ul>
+                            </div>
+                            <div class="list_box">
+                                <div class="list_box_header">
+                                    <img src="./assets/risk-icon.svg">&nbsp;&nbsp;&nbsp;RISKS
+                                </div>
+                                <ul>
+                                    <li>High blood pressure</li>
+                                    <li>Diabetes</li>
+                                    <li>Heart failure</li>
+                                    <li>Various heart valve disease</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_section">
+                    <div class="project_section_body">
+                        <h2 class="center-text">Medtronic Discovery app: <br/>An in-house clinical research platform</h2>
+                        <p>
+                            Clinical studies suffer from high costs and inefficiencies due to the time-consuming 
+                            process of engaging patients through clinics, so we built an in house research app that 
+                            offers a streamlined platform for conducting studies, making research efficient, 
+                            accessible, and cost-effective. These studies yield valuable data and insights that 
+                            fuel product innovation and enhance user experience. 
+                        </p>
+                        <p>
+                            We leveraged Apple’s research kit to develop an intuitive experience for iOS users, 
+                            and DEFINE AFib became the pilot clinical study hosted on the Medtronic Discovery app. 
+                        </p>
+                        <p class="center-text">
+                            <img src="./assets/defineafib/kit_to_app.png" style="width:400px;margin-top:32px;">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_section">
+                    <div><img src="./assets/defineafib/yourdataphone.png" width="328"></div>
+                    <div class="project_section_body">
+                        <h2>Providing patients their data</h2>
+                        <p>
+                            Patients desire active involvement in their healthcare journey, with a key request 
+                            being access to their heart device data. In the DEFINE AFib study, we addressed this 
+                            by providing patients with their data to encourage ongoing engagement in survey tasks. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_section white_bg">
+                    <div class="project_section_body">
+                        <h2 class="center-text">DISCOVERY</h2>
+                        <div class="project_images_grid">
+                            <img src="./assets/defineafib/discovery_1.png" style="width:300px;">
+                            <img src="./assets/defineafib/discovery_2.png" style="width:300px;">
+                            <img src="./assets/defineafib/discovery_3.png" style="width:300px;">
+
+                            <div class="section_chip">
+                                empathize
+                            </div>
+                        </div>
+                        <p>
+                            Early data discovery with ICM patients revealed what type of health data they currently 
+                            track and what they want to see most from their heart device. This informed the first 
+                            UI concepts for the data trends in DEFINE AFib.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_section white_bg">
+                    <div class="project_section_body">
+                        <h2 class="center-text">UX RESEARCH AND FORMATIVE TESTING</h2>
+                        <div class="project_images_grid">
+                            <img src="./assets/defineafib/research_1.png" style="width:300px;">
+                            <img src="./assets/defineafib/research_2.png" style="width:600px;">
+
+                            <div class="section_chip">
+                                define + ideate
+                            </div>
+                        </div>
+                        <p>
+                            Early data discovery with ICM patients revealed what type of health data they currently 
+                            track and what they want to see most from their heart device. This informed the first 
+                            UI concepts for the data trends in DEFINE AFib.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_section">
+                    <div class="project_section_body">
+                        <p>
+                            Preliminary concept ideation helped define the types of data and UI architecture that 
+                            provides a simple, familiar experience for patients to consume health information from 
+                            their heart devices.
+                        </p>
+                        <div class="list_box_container">
+                            <div class="list_box_invisible">
+                                <div class="list_box_header_invisible">
+                                    <img src="./assets/smiley-icon.svg">&nbsp;&nbsp;&nbsp;PATIENTS LIKED
+                                </div>
+                                <ul>
+                                    <li>Concise, scannable, dashboard</li>
+                                    <li>Detailed trends</li>
+                                    <li>Simplification of complex data</li>
+                                    <li>Only key types of data shown</li>
+                                </ul>
+                            </div>
+                            <div class="list_box_invisible">
+                                <div class="list_box_header_invisible">
+                                    <img src="./assets/frown-icon.svg">&nbsp;&nbsp;&nbsp;PATIENTS DISLIKED
+                                </div>
+                                <ul>
+                                    <li>Extra clicks to find data trends</li>
+                                    <li>Lack of details</li>
+                                    <li>Cognitive burden when shown too many types of data</li>
+                                    <li>Leaving the app to view data (Apple Health data integration)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project_section">
+                    <div class="project_section_body">
+                        <h3 class="center-text">FINAL FEATURE UI</h3>
+                        <p class="center-text">
+                            <img src="./assets/defineafib/finalui.png" style="width:80%;margin-top:32px;">
+                        </p>
+                        <p>
+                            Through four rounds of formative testing involving over 32 patients, I developed 
+                            and refined data visualization concepts, optimizing UI patterns, workflows, 
+                            information architecture, and native iOS styling for a fluid and intuitive user 
+                            experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_section white_bg">
+                    <div class="project_section_body">
+                        <h2 class="center-text">APP ILLUSTRATIONS & APP STORE ASSETS</h2>
+                        <div class="project_images_grid">
+                            <img src="./assets/defineafib/illustrations_1.png" style="width:280px;margin:10px;">
+                            <img src="./assets/defineafib/illustrations_2.png" style="width:280px;margin:10px;">
+                            <img src="./assets/defineafib/illustrations_3.png" style="width:280px;margin:10px;">
+                        </div>
+                        <div class="project_images_grid">
+                            <img src="./assets/defineafib/illustrations_4.png" style="width:210px;margin:10px;">
+                            <img src="./assets/defineafib/illustrations_5.png" style="width:210px;margin:10px;">
+                            <img src="./assets/defineafib/illustrations_6.png" style="width:210px;margin:10px;">
+                            <img src="./assets/defineafib/illustrations_7.png" style="width:210px;margin:10px;">
+                        </div>
+                      
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <div class="footer-nav">
+                    <div class="footer-sitename">
+                        Vivian To <span class="heading_highlight">Design</span>
+                    </div>
+                    <a href="index.html" class="footer-link">Projects</a>
+                    <a href="experience.html" class="footer-link">Experience</a>
+                    <a href="about.html" class="footer-link">About Me</a>
+                </div>
+               <div class="footer-contact">
+                    <div class="contact-item">
+                        <a href="mailto:vivto722@gmail.com"><img src="./assets/mail.svg" class="contact-icon">vivto722@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span><img src="./assets/location.svg" class="contact-icon">Minneapolis, MN</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><img src="./assets/phone.svg" class="contact-icon">847.910.9556</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/vivianto7228/"><img src="./assets/linkedin.svg" class="contact-icon">LinkedIn</a>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            
+            const menubutton = document.querySelector('#menubutton');
+            const navmenu = document.querySelector('#hamburgernav');
+            
+            function update() {
+                window.FloatingUIDOM.computePosition(menubutton, navmenu, {placement: 'bottom-end'}).then(({x, y}) => {
+                    Object.assign(navmenu.style, {
+                        left: `${x}px`,
+                        top: `${y}px`,
+                    });
+                });
+            }
+
+            function showNav() {
+                navmenu.style.display = 'block';
+                update();
+                event.stopPropagation();
+            }
+                
+            function hideNav() {
+                navmenu.style.display = '';
+            }
+
+            window.addEventListener("click", function(event) {
+                hideNav();
+            });
+        </script>
+    </body>
+</html>
